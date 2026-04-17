@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Home Page - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Portfolio</strong></a>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+																				<p></p>
+										
+									</div>
+									<span class="image object">
+    									<img src="images/FRONT.PNG" alt="" style="width: 100%; max-width: 1500px;">
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>
+   								 <a href="Readings.html">PROFESSIONAL READINGS</a></h2>
+									</header>
+									<div class="features">
+									<article>
+									<span class="icon solid fa-lightbulb"></span>
+									<div class="content">
+
+									<a href="Readings.html#philosophy"><h3>Philosophy</h3></a>
+									<p style="text-align: justify;">Guiding with Empathy, Empowering through Independence As a future molder of young minds. I believe that education is most effective when it places the learner at the center.</p></div></article>
+
+									<article>
+									<span class="icon solid fa-balance-scale"></span>
+									<div class="content">
+									<a href="Readings.html#laws"><h3>Laws</h3></a>
+									<p style="text-align: justify;">Learning about the educational laws in the Philippines made me realize that these are not just complicated words written in books or documents they are promises and protections for every student and teacher.</p></div></article>
+
+									<article>
+									<span class="icon solid fa-atom"></span>
+									<div class="content">
+									<a href="Readings.html#theories"><h3>Theories</h3></a>
+									<p style="text-align: justify;">Exploring different educational theories like Essentialism and Constructivism made me realize that there is no single "perfect way" to teach. Instead, being a good teacher means knowing when and how to use the right approach.</p></div></article>
+									</div>
+									</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+																			</header>
+									<div class="posts">
+										
+
+																			</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html"><strong>Homepage</strong></a></li>
+										<li><a href="Introduction.html"><strong>Introduction</a></li></strong>
+										<li><a href="Acknowledgement.html"><strong>Acknowledgement</a></li></strong>
+										<li><a href="CV.html"><strong>CURRICULUM VITAE</a></li></strong>
+										<li><a href="Certificate.html"><strong>Certificate of Completion</a></li></strong>	
+										<li><a href="Readings.html"><strong>Professional Readings</a></li></strong>
+										<li><a href="Journal.html"><strong>Weekly Journal</a></li></strong>
+										<li><a href="DEMO.html"><strong>DEMONSTRATION TEACHING</a></li></strong>
+										<li><a href="DEMO_2.html"><strong>GRAND DEMONSTRATION</a></li></strong>
+										<li><a href="ratings.html"><strong>RATINGS</a></li></strong>
+										<li><a href="DTR.html"><strong>DAILY TIME RECORD</a></li></strong>
+								</ul>
+								</nav>
+
+							
+							
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Cesar Iyan C. Ligutan. All rights reserved.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+			<!-- IMAGE MODAL -->
+			<div id="imgModal" style="display:none; position:fixed; z-index:999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.8);">
+  			<span id="closeModal" style="position:absolute; top:20px; right:40px; color:white; font-size:30px; cursor:pointer;">&times;</span>
+  			<img id="modalImg" style="display:block; margin:auto; max-width:95%; max-height:90%; margin-top:50px; transition:0.3s;">
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!-- FLOAT IMAGE SCRIPT -->
+			<script>
+			window.onload = function() {
+  			const images = document.querySelectorAll('.clickable-img');
+ 			const modal = document.getElementById('imgModal');
+  			const modalImg = document.getElementById('modalImg');
+ 			const closeBtn = document.getElementById('closeModal');
+
+  			images.forEach(img => {
+    			img.onclick = function() {
+      			modal.style.display = "block";
+      			modalImg.src = this.src;
+    			}
+  			});
+
+  			closeBtn.onclick = function() {
+   			modal.style.display = "none";
+  			}
+
+  			modal.onclick = function() {
+    			modal.style.display = "none";
+  			}
+			}
+			</script>
+
+			</body>
+			</html>
+
+			</body>
+			</html>
